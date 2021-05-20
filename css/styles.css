@@ -1,0 +1,85 @@
+:root {
+  --pretty-color: #2196f3;
+  --backblack-color: #2f303a;
+  --backwhite-color: #e5e5e5;
+  --backgrey-color: #f5f4fa;
+  --title-color: #212121;
+  --accenttext-color: #757575;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Raleway", sans-serif;
+}
+
+.body {
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-family: Roboto sans-serif;
+  color: var(--accenttext-color);
+}
+
+.body .ul {
+  list-style: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--pretty-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--pretty-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--pretty-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--pretty-color);
+}
+
+.current {
+  color: var(--pretty-color);
+}
+
+.site-nav-link {
+  color: var(--accenttext-color);
+}
+
+.hero,
+.hero .buy-button {
+  color: #fff;
+  background-color: var(--backblack-color);
+}
+
+.features-title {
+  color: var(--title-color);
+}
+
+.about-title {
+  color: var(--title-color);
+}
+.team-title {
+  color: var(--title-color);
+}
+
+.address {
+  color: #fff;
+}
+
+.footer {
+  background-color: var(--backblack-color);
+}
+
+.footer-link {
+  color: var(--footer-contacts-color);
+}
+
+.projects-title {
+  color: var(--title-color);
+}
