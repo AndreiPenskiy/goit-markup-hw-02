@@ -40,18 +40,18 @@
   letter-spacing: 0.03em;
 }
 
-.link,
-.site-nav-link {
+.site-nav-link,
+.contact-link {
   text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--pretty-color);
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus {
+  color: var(--pretty-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--pretty-color);
 }
 
@@ -69,7 +69,7 @@
   cursor: pointer;
 }
 
-.link.current {
+.site-nav-link.current {
   color: var(--pretty-color);
 }
 
@@ -81,7 +81,7 @@
   letter-spacing: 0.02em;
 }
 
-.site-nav-link {
+.contact-link {
   color: var(--accenttext-color);
   font-weight: 500;
   font-size: 14px;
